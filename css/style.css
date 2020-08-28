@@ -31,7 +31,8 @@
 
 .header_slider {
   width: 100%;
-  min-height: 1050px;
+  min-height: calc(100vh - 72px);
+  padding-top: 72px;
 }
 
 .header_slider .carousel-item {
@@ -40,7 +41,7 @@
 
 .header_slider .carousel-item img {
   width: 100%;
-  height: 1050px;
+  height: calc(100vh - 72px); 
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -48,7 +49,7 @@
 .navbar {
   width: 100%;
   min-height: 10px;
-  background: transparent;
+  background: #202020;
   padding: 10px 0;
   position: fixed;
   z-index: 20;
@@ -69,9 +70,6 @@
   transition: all 0.5s;
 }
 
-.navbar.active {
-  background: #202020;
-}
 
 .navbar .top {
   position: fixed;
@@ -991,7 +989,7 @@
 
 .footer form button {
   width: 60%;
-  minheight: 10px;
+  min-height: 10px;
   padding: 15px 20px;
   -webkit-border-radius: 10px;
           border-radius: 10px;
@@ -1066,6 +1064,15 @@
     background-color: #202020;
     padding: 10px 0;
     border-radius: 10px 0 0 10px;
+  }
+
+  .header_slider {
+    min-height: calc(100vh - 45px);
+    padding-top: 45px;
+  }
+
+  .header_slider .carousel-item img {
+    height: calc(100vh - 45px);
   }
 
   .trainers .card p {
@@ -1157,10 +1164,10 @@
 @media screen and (max-width: 768px) {
   .header_slider {
     width: 100%;
-    height: 500px;
+    min-height: 400px;
   }  
 
-   .navbar .logo {
+  .navbar .logo {
     font-size: 28px;
   }
   .navbar .logo span {

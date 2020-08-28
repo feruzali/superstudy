@@ -113,13 +113,6 @@ $(function(){
           $(".navbar .top").fadeOut();
         }
       })
-    $(window).scroll(function(){
-        if($(this).scrollTop() > 1000){
-          $(".navbar").addClass('active');
-        }else{
-          $(".navbar").removeClass('active');
-        }
-      })
       $(window).scroll(function(){
         var scroll = $(window).scrollTop();
         link.each(function(){

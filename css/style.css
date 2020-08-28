@@ -390,6 +390,7 @@
 }
 
 .advantages_card {
+  display: none;
   width: 100%;
   height: 100%;
   position: fixed;
@@ -1221,6 +1222,10 @@
 @media screen and (max-width: 480px) {
   .header_slider {
     display: none;
+  }
+
+  .about {
+    padding-top: 80px;
   }
 
   .navbar {

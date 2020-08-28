@@ -1159,6 +1159,14 @@
     height: 500px;
   }  
 
+   .navbar .logo {
+    font-size: 28px;
+  }
+  .navbar .logo span {
+    font-size: 36px;
+    padding-left: 10px;
+  }
+
   .trainers .card p {    
     font-size: 14px;
   }
@@ -1177,6 +1185,13 @@
 
 
 @media screen and (max-width: 540px) {
+  .navbar .logo {
+    font-size: 22px;
+  }
+  .navbar .logo span {
+    font-size: 30px;
+  }
+
   .advantages-card .popup {
     width: 70%;
     min-height: 60%;

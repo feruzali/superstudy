@@ -1243,6 +1243,14 @@
     width: 80%;
   }
 
+  .navbar .top {
+    width: 50px;
+    height: 50px;
+    font-size: 22px;
+    right: 20px;
+    bottom: 20px;
+  }
+
   .trainers .card_foto img {
     -o-object-position: 0 0px;
        object-position: 0 0px;
